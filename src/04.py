@@ -18,8 +18,8 @@ with open("../dat/04") as input_file:
         if int(elf2[0]) <= int(elf1[0]) <= int(elf2[1]) and int(elf2[0]) <= int(elf1[1]) <= int(elf2[1]) or \
                 int(elf1[0]) <= int(elf2[0]) <= int(elf1[1]) and int(elf1[0]) <= int(elf2[1]) <= int(elf1[1]):
             fully_contained += 1
-        print(line[:-1], elf1, elf2, fully_contained)
 
-print(line[:-1], elf1, elf2, double_assigments, fully_contained)
+        print(line[:-1], elf1, elf2, double_assigments, fully_contained)
+
 print(double_assigments)
 print(fully_contained)
